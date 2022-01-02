@@ -19,8 +19,8 @@ This is the last project part of Udacity's Front-end Web Development Nanodegree.
 
 ## INSTALLATION
 
-1. Clone the github repo then cd into the project directory and run
-      npm install
+1. Clone the github repo then cd into the project directory and run: 
+    npm install
 
 2. Then sign up for a free API key at meaningcloud.com
 
