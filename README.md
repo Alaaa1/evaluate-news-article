@@ -22,7 +22,7 @@ This is the last project part of Udacity's Front-end Web Development Nanodegree.
 1. Clone the github repo then cd into the project directory and run: 
     ```npm install```
 
-2. Then sign up for a free API key at meaningcloud.com
+2. Then sign up for a free API key at [Meaning Cloud](meaningcloud.com)
 
 3. Install dotenv package
      ``` npm install dotenv```
@@ -32,4 +32,5 @@ This is the last project part of Udacity's Front-end Web Development Nanodegree.
 
 5. Start the project
      ``` npm run build-prod```
+     then
      ``` npm start```
