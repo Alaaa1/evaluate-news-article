@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sentiment Analyzer</title>
+</head>
+
+<body>
+    <header>Text Sentiment Analysis</header>
+    <main>
+        <div class="container">
+            <p>Enter a URL of an article / a blog to discover its sentiment.</p>
+            <section>
+                <form id="form" onsubmit="return Client.handleSubmit(event)">
+                    <label for="article-url">URL</label>
+                    <input id="article-url" type="text" name="input" value="" placeholder="Enter Article URL here" />
+                    <button type="submit" class="btn-submit" id="submitButton">
+              Submit
+            </button>
+                </form>
+            </section>
+
+            <section>
+                <strong>Form Results:</strong>
+                <div id="results">
+                    <div class="result" id="agreement"></div>
+                    <div class="result" id="subjectivity"></div>
+                    <div class="result" id="confidence"></div>
+                    <div class="result" id="irony"></div>
+                    <div class="result" id="score_tag"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Text Sentiment Analysis Using MeagningCloud. Done By Alaa</p>
+    </footer>
+    <script>
+        // Check that service workers are supported
+        if ("serviceWorker" in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("/service-worker.js");
+            });
+        }
+    </script>
+</body>
+
+</html>

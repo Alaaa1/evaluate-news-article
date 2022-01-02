@@ -1,0 +1,7 @@
+$headerFontSize: 2em;
+$headerFontColor: red;
+header {
+    padding: 5px;
+    color: $headerFontColor;
+    font-size: $headerFontSize;
+}
